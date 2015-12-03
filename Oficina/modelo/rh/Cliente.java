@@ -1,14 +1,15 @@
+package rh;
 
 
 
 public class Cliente {
-	private String cpf;;
+		private String cpf;;
 		private String nome;
 		private Endereco endereco;
 		private Contato contato;
 		
 		
-		public Cliente(String cpf,String nome, Contato contato, Endereco endereco){
+		public Cliente(String nome,String cpf, Contato contato, Endereco endereco){
 
 			this.cpf= cpf;
 			this.nome = nome;

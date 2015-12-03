@@ -1,3 +1,4 @@
+package rh;
 
 public class Contato {
 	private String email;
